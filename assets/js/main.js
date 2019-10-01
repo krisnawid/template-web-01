@@ -184,6 +184,7 @@ $('.scrolldown a').bind('click', function () {
 jQuery(document).on("scroll", function () {
     if ($(document).scrollTop() > 120) {
         $("header").addClass("small");
+        console.log();
     } else {
         $("header").removeClass("small");
     }
